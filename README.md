@@ -5,7 +5,17 @@
 - [**neovim**](https://neovim.io/)
 - [**nvchad**](https://nvchad.com/)
 
-### Git
+### .zshrc
+
+```
+alias zsh="nvim ~/.zshrc"
+
+# https://www.imagemagick.org/script/mogrify.php
+alias shrink50="magick mogrify -resize 50% *.jpg"
+alias tojpg="magick mogrify -format jpg *.png"
+```
+
+### git
 ```
 git config --global alias.co checkout
 git config --global alias.br branch
